@@ -1,0 +1,286 @@
+#cont{
+  height:100px;
+}
+
+.carousel-item img{
+  height: 50px;
+  padding-right: 20px;
+  /* opacity: 0.5;
+  filter: grayscale(100%); */
+}
+.carousel-item img:hover{
+  height: 50px;
+  padding-right: 20px;
+  opacity: 0.9;
+  transition: opacity 2s;
+  filter: grayscale(10%);
+}
+
+.navbar{
+  position: sticky;
+}
+.navbar-brand {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+.navbar-brand:hover, .navbar-brand:focus {
+  text-decoration: none;
+}
+.navbar .navbar-brand {
+  color: #AAde87;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  letter-spacing: 0.0625em;
+  text-transform: uppercase;
+}
+.navbar .navbar-brand img {
+  height: 1.7rem;
+  padding-left:none;
+  display:block;
+}
+
+.nav-link:hover{
+  color: #087c6f;
+border-bottom: 3px solid;
+padding-bottom: 5px;
+transition: color 1s;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+ }
+
+.nav-link{
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  font-weight: 550;
+  color: rgba(21,76,121,0.9);
+}
+
+#port:hover{
+  color: #087c6f;
+  transition: color 1s ;
+  border-bottom: 3px solid;
+  padding-bottom: 5px;
+}
+
+
+
+.nav-item{
+  margin-left: 20px;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+.navbar-toggler{
+  border: none;
+  color: black;
+}
+
+@media only screen and (max-width: 990px) {
+
+  .card{
+    width: 15rem !important;
+  }
+    .nav-link:hover{
+      color: #087c6f;
+    border-bottom: none !important;
+    border-left: 3px solid #087c6f;
+    border-radius: 5px;
+    padding-bottom: none !important;
+    padding-left: 15px;
+    transition: color 1s;
+    }
+}
+
+
+body{
+   overflow-x: hidden;
+   -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+}
+header.masthead {
+  position: relative;
+  background-color: #343a40;
+  background: url("assets/img/bg-bck.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+header.masthead:before {
+  content: "";
+  position: absolute;
+  background-color: #1c375e;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+}
+header.masthead h1, header.masthead .h1 {
+  font-size: 2rem;
+}
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+  header.masthead h1, header.masthead .h1 {
+    font-size: 3rem;
+  }
+}
+
+/* @media (min-width: 768px){
+  .carousel-item{
+    height:500px;
+  }
+  .carousel-caption{Height: 300px;
+  text-align: center;}
+}
+
+@media (min-width: 900px){
+  .carousel-item{
+  height: 600px;
+
+  }
+  .carousel-caption{Height: 400px;
+  text-align: center;}
+} */
+
+#portfolio .container-fluid{
+  background-color: rgba(21,76,121,0.1);
+  border: 5px solid rgba(21,76,121,0.9);
+  padding-top: 20px;
+  padding-bottom: 40px;
+
+
+}
+.container h2{
+  padding-top: 10px;
+  padding-bottom: 12px;
+  color:white;
+  background-color: rgba(21,76,121,0.9);
+  border-radius: 10px;
+  border-bottom-left-radius: 50px;
+  border-bottom: 4px solid rgba(21,76,121,0.9);
+
+}
+
+
+#portfolio .portfolio-item {
+  max-width: 25rem;
+  margin: auto;
+
+}
+#portfolio .portfolio-item .portfolio-link {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0 0 0 / 50%);
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity ease-in-out 0.25s;
+  border-radius: 10px;
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+  font-size: 1.25rem;
+  color: white;
+}
+#portfolio .portfolio-item .portfolio-link:hover .portfolio-hover {
+  opacity: 1;
+}
+#portfolio .portfolio-item .portfolio-caption {
+  padding: 1.5rem;
+  text-align: center;
+  background-color: #fff;
+}
+#portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
+  font-size: 1.5rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  margin-bottom: 0;
+}
+#portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
+  font-style: italic;
+  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.portfolio-modal .modal-dialog {
+  margin: 1rem;
+  max-width: 100vw;
+}
+.portfolio-modal .modal-content {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  text-align: center;
+}
+.portfolio-modal .modal-content h2 {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+.portfolio-modal .modal-content p.item-intro {
+  font-style: italic;
+  margin-bottom: 2rem;
+  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.portfolio-modal .modal-content p {
+  margin-bottom: 2rem;
+}
+.portfolio-modal .modal-content ul.list-inline {
+  margin-bottom: 2rem;
+}
+.portfolio-modal .modal-content img {
+  margin-bottom: 2rem;
+}
+#portfolio img {
+  width: 450px;
+  height: 200px;
+  border-radius: 10px
+}
+
+.portfolio-modal .close-modal {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  background-color: transparent;
+}
+.portfolio-modal .close-modal:hover {
+  opacity: 0.3;
+}
+
+/* prices */
+#disc{
+  text-decoration: line-through;
+}
+.table{
+  margin: auto;
+}
+.heads{
+  background-color: rgba(8, 124, 111,0.1);
+}
+#t{
+  font-weight: lighter;
+}
+.card{
+  height: 25rem;
+  width: 18rem;
+}
