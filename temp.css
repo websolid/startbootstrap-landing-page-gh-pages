@@ -90,6 +90,7 @@ transition: color 1s;
 
   .card{
     width: 15rem !important;
+    height: 30rem !important;
   }
     .nav-link:hover{
       color: #087c6f;
@@ -281,6 +282,6 @@ header.masthead h1, header.masthead .h1 {
   font-weight: lighter;
 }
 .card{
-  height: 25rem;
+  height: 27rem;
   width: 18rem;
 }
