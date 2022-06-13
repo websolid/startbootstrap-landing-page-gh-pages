@@ -152,6 +152,28 @@ header.masthead h1, header.masthead .h1 {
     line-height: 4.5rem;
     margin-bottom: 6.25rem;
   }
+}
+
+@media (min-width: 576px) {
+  .container-sm, .container, .conatiner-fluid{
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container-md, .container-sm, .container, .conatiner-fluid {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container-lg, .container-md, .container-sm, .container, .conatiner-fluid {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-xl, .container-lg, .container-md, .container-sm, .container, .conatiner-fluid {
+    max-width: 1140px;
+  }
+}
 /* @media (min-width: 768px) {
   header.masthead {
     padding-top: 12rem;
