@@ -116,6 +116,7 @@ header.masthead {
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
+  height: 30rem;
 }
 header.masthead:before {
   content: "";
@@ -130,6 +131,27 @@ header.masthead:before {
 header.masthead h1, header.masthead .h1 {
   font-size: 2rem;
 }
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 12.5rem;
+    padding-bottom: 20.5rem;
+
+
+  }
+  header.masthead .masthead-subheading {
+    font-size: 4.25rem;
+    font-style: ;
+    line-height: 1.25rem;
+	font-weight: 650;
+    margin-bottom: 3rem;
+
+  }
+  header.masthead .masthead-heading {
+    font-size: 3.0rem;
+    font-weight: 350;
+    line-height: 4.5rem;
+    margin-bottom: 6.25rem;
+  }
 /* @media (min-width: 768px) {
   header.masthead {
     padding-top: 12rem;
