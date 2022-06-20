@@ -1,3 +1,4 @@
 [[redirects]]
-from = "/index.html"
-  to = "/home"
+from = "https://www.websolid.co.nz/index.html"
+to = "https://www.websolid.co.nz"
+force = true
