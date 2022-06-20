@@ -1,5 +1,4 @@
 # Redirects from what the browser requests to what we serve
-https://www.websolid.co.nz/index.html             /home
-https://www.websolid.co.nz/prices.html             /prices
-/prices.html             /prices
-/index.html#portfolio              /portfolio
+index.html             /home
+prices.html             /prices
+index.html#portfolio              /portfolio
