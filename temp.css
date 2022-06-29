@@ -177,7 +177,9 @@ header.masthead {
   padding-top: 8rem;
   padding-bottom: 8rem;
   height: 30rem;
+  animation: fadeIn 5s;
 }
+
 header.masthead:before {
   content: "";
   position: absolute;
@@ -259,7 +261,9 @@ header.masthead h1, header.masthead .h1 {
 
 }
 
-
+header.heads{
+  animation: fadeIn 5s;
+}
 #portfolio .portfolio-item {
   max-width: 25rem;
   margin: auto;
@@ -378,4 +382,40 @@ section.services {
   padding-top: 8rem;
   padding-bottom: 8rem;
   height: 30rem;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 }
