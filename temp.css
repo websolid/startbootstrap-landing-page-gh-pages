@@ -65,16 +65,30 @@ transition: color 1s;
   line-height: 35px;
 text-align: center;
 }
-.serv{
-  font-family: 'Poppins', sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  color: #1a1b1e;
-  display:inline-block;
-  width: 40rem;
-text-align: center;
-margin:auto;
+
+@media (min-width: 768px) {
+  .serv{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #1a1b1e;
+    display:inline-block;
+    width: 40rem;
+  text-align: center;
+  margin:auto;
+  }
 }
+
+
+
+  .serv{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #1a1b1e;
+  text-align: center;
+  margin:auto;
+  }
 
 #port:hover{
   color: #087c6f;
