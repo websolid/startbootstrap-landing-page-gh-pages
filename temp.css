@@ -58,9 +58,22 @@ transition: color 1s;
 
 .nav-link{
   font-family: 'Poppins', sans-serif;
-  font-size: 17px;
-  font-weight: 550;
-  color: rgba(21,76,121,0.9);
+  font-size: 16px;
+  font-weight: 700;
+  color: #1a1b1e;
+  display:inline-block;
+  line-height: 35px;
+text-align: center;
+}
+.serv{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #1a1b1e;
+  display:inline-block;
+  width: 40rem;
+text-align: center;
+margin:auto;
 }
 
 #port:hover{
@@ -102,7 +115,34 @@ transition: color 1s;
     transition: color 1s;
     }
 }
-
+.features-icons .features-icons-item .features-icons-icon i {
+    font-size: 4.5rem;
+}
+.showcase .showcase-text {
+  padding: 3rem;
+}
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 7rem;
+  }
+}
+@media (min-width: 992px)
+.order-lg-1 {
+    order: 1 !important;
+}
+.my-auto {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+@media (min-width: 992px)
+.col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
 
 body{
    overflow-x: hidden;
@@ -308,4 +348,14 @@ header.masthead h1, header.masthead .h1 {
   height: 27rem;
   width: 18rem;
   margin:auto;
+}
+
+section.services {
+  position: relative;
+  background-color: #343a40;
+  background: url("assets/img/services.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  height: 30rem;
 }
