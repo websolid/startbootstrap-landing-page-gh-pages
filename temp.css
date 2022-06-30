@@ -155,18 +155,10 @@ text-align: center;
     padding: 7rem;
   }
 }
-@media (min-width: 992px)
-.order-lg-1 {
-    order: 1 !important;
-}
+
 .my-auto {
     margin-top: auto !important;
     margin-bottom: auto !important;
-}
-@media (min-width: 992px)
-.col-lg-6 {
-    flex: 0 0 auto;
-    width: 50%;
 }
 
 body{
@@ -174,10 +166,23 @@ body{
    -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
 }
+
+@media (min-width: 768px){
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("assets/img/bck.jpg") no-repeat center center;
+  background: url("assets/img/pop-art.webp") no-repeat center center;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  height: 40rem !important; 
+  animation: fadeIn 5s;
+}
+}
+header.masthead {
+  position: relative;
+  background-color: #343a40;
+  background: url("assets/img/pop-art.webp") no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
