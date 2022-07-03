@@ -127,10 +127,14 @@ text-align: center;
 }
 @media only screen and (max-width: 990px) {
 
-  /* .card{
-    width: 15rem !important;
-    height: 30rem !important;
-  } */
+    .nav-link{
+      text-align: center;
+      margin-left: 20px;
+    }
+    .navbar .btn {
+      margin-top: 5px;
+      margin-left: 32px !important;
+    }
     .nav-link:hover{
       color: #087c6f;
     border-bottom: none !important;
@@ -193,7 +197,7 @@ header.masthead:before {
 header.masthead h1, header.masthead .h1 {
   font-size: 2rem;
 }
-@media (min-width: 368px) {
+@media (min-width: 320px) {
   header.masthead {
     padding-top: 12.5rem;
     padding-bottom: 20.5rem;
