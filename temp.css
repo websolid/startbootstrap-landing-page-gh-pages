@@ -1,6 +1,9 @@
 #cont{
   height:100px;
 }
+body.modal-open {
+    overflow: visible;
+}
 
 .carousel-item img{
   height: 50px;
