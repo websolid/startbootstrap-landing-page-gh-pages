@@ -57,7 +57,11 @@
         <li class="nav-item">
           <a id="port"class="nav-link" href="prices.html">Prices</a>
         </li>
-        <li class="nav-item dropdown">
+        <li class="nav-item">
+          <a id="port"class="nav-link" href="services.html">Services</a>
+        </li>
+
+        <!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown" href="services.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Services
           </a>
@@ -66,7 +70,7 @@
             <li><a class="dropdown-item" href="services.html">SEO</a></li>
             <li><a class="dropdown-item" href="services.html#GMB">Google Business</a></li>
           </ul>
-        </li>
+        </li> -->
 
       </ul>
 
@@ -419,9 +423,10 @@ $(function(){
      var navMain = $(".navbar-collapse"); // avoid dependency on #id
      // "a:not([data-toggle])" - to avoid issues caused
      // when you have dropdown inside navbar
-     $("#nav-main").collapse('hide');
+     navMain.on("click", "a:not([data-toggle])", null, function () {
+         navMain.collapse('hide');
      });
-
+ });
 </script>
 
   </body>
