@@ -39,7 +39,7 @@
   </head>
   <body>
 
-    <nav class="navbar fixed-top navbar-expand-lg bg-light">
+    <nav id="nav1" class="navbar fixed-top navbar-expand-lg bg-light">
   <div class="container">
     <a class="navbar-brand" href="#"> <img src="assets/img/logo.svg" class="logo" alt="" ></a>
 
@@ -47,12 +47,12 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul id="nav2" class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a id="port" class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a id="port"class="nav-link" href="index.html#portfolio">Portfolio</a>
+          <a id="port"class="nav-link" href="#portfolio">Portfolio</a>
         </li>
         <li class="nav-item">
           <a id="port"class="nav-link" href="prices.html">Prices</a>
@@ -70,7 +70,7 @@
 
       </ul>
 
-        <a class="btn btn-primary" href="mailto:hello@websolid.co.nz">Contact</a>
+        <a id="nav3"class="btn btn-primary" href="mailto:hello@websolid.co.nz">Contact</a>
     </div>
   </div>
 </nav>
@@ -404,14 +404,25 @@ $(document).ready(function () {
     $(window).scroll(function () {
         if ($(this).scrollTop() > 20) {
             //change yes to no
-            $("h1").html('Register Below For a Free 30min Chat');
+            $("#mod1").html('Register Below For a Free 30min Chat');
         } else {
             //set h1 text to yes
-            $("h1").html('Looking For An Affordable Website?');
+            $("#mod1").html('Looking For An Affordable Website?');
         }
     });
 });
 
+</script>
+<script type="text/javascript">
+
+$(function(){
+     var navMain = $(".navbar-collapse"); // avoid dependency on #id
+     // "a:not([data-toggle])" - to avoid issues caused
+     // when you have dropdown inside navbar
+     navMain.on("click", "a:not([data-toggle])", null, function () {
+         navMain.collapse('hide');
+     });
+ });
 </script>
 
   </body>
