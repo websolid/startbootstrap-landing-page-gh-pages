@@ -80,8 +80,8 @@
           <div class="col-xl-6">
               <div class="text-center text-white">
 
-                <h1 class="mb-5">Looking For An Affordable Website?</h1>
-            <a class="btn btn-primary btn-lg" href="https://calendly.com/simon-putan/30min">Find out more</a>
+                <h1 id="mod1" class="mb-5" >Looking For An Affordable Website?</h1>
+            <a class="btn btn-primary btn-lg" href="https://calendly.com/simon-putan/30min">Book a chat</a>
               </div>
               </div>
               </div>
@@ -398,7 +398,21 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
+<script type="text/javascript">
+$(document).ready(function () {
 
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 20) {
+            //change yes to no
+            $("h1").html('Register Bellow For a Free 30min Chat');
+        } else {
+            //set h1 text to yes
+            $("h1").html('Looking For An Affordable Website?');
+        }
+    });
+});
+
+</script>
 
   </body>
 
