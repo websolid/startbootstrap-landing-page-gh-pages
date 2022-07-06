@@ -186,13 +186,15 @@ text-align: center;
   }
 }
 @media (max-width: 568px) {
-  .showcase .showcase-text {
+  #showcase-top .showcase-text {
     padding: 2rem;
     padding-top: 5rem;
 
   }
   #serv1{
-    height: 0px !important;
+    height:20rem !important;
+    padding-bottom: 1px;
+    margin-bottom: 1px;
   }
 
 }
