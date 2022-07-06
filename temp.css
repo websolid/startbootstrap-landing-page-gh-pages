@@ -182,7 +182,7 @@ text-align: center;
 @media (min-width: 568px) {
   .showcase .showcase-text {
     padding: 5rem;
-    padding-top: 5rem;
+    padding-top: 2rem;
   }
 }
 @media (max-width: 568px) {
@@ -190,10 +190,17 @@ text-align: center;
     padding: 2rem;
     padding-top: 5rem;
 
+
   }
+
+  .showcase .showcase-text {
+    padding: 2rem;
+    padding-top: 0rem;
+  }
+
   #serv1{
     height:20rem !important;
-    padding-bottom: 1px;
+    padding-top: 1px;
     margin-bottom: 1px;
   }
 
