@@ -226,7 +226,6 @@ header.masthead {
   padding-top: 8rem;
   padding-bottom: 8rem;
   height: 30rem;
-  animation: fadeIn 5s;
 }
 
 header.masthead:before {
