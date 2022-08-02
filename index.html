@@ -55,11 +55,11 @@ src="https://www.facebook.com/tr?id=7658084874266242&ev=PageView&noscript=1"
 
   </head>
   <body>
-    <nav class="navbar fixed-top navbar-expand-lg ">
+    <nav class="navbar fixed-top navbar-expand-lg">
   <div class="container">
     <a class="navbar-brand" href="#"> <img src="assets/img/logo1.svg" class="logo" alt="" ></a>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button id="btn1" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon navbar-dark"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -466,6 +466,73 @@ $(function(){
          navMain.collapse('hide');
      });
  });
+</script>
+
+<script>
+
+
+
+
+$(document).ready(function () {
+  $(document).scroll(function () {
+    if (window.innerWidth > 968 && $(this).scrollTop() > 75) {
+      var $nav = $(".navbar");
+
+
+      $nav.removeClass('navbar-expand-lg', $(this).scrollTop() > $nav.height());
+      $nav.addClass('scrolled', $(this).scrollTop() > $nav.height());
+      $('.navbar-toggler').css('background-color', 'rgba(2, 48, 71,0.8)');
+
+    }else if (window.innerWidth > 968 && $(this).scrollTop() < 75){
+          $(".navbar").addClass('navbar-expand-lg');
+          $(".navbar").removeClass('scrolled');
+          $(".navbar").removeClass('hi');
+
+      }
+
+
+  });
+});
+
+$('#btn1').click(function(){
+if (window.innerWidth > 968 ){
+
+$(".navbar").toggleClass('scrolled');
+$(".navbar").addClass('hi');
+
+}
+
+});
+// var $img = "assets/img/logo.svg"
+// var $img1 = "assets/img/logo1.svg"
+//
+// $(window).scroll(function() {
+//    var value = $(this).scrollTop();
+//    if (value > 50 && window.innerWidth > 968)
+//       $(".logo").attr("src", $img);
+//    else
+//       $(".logo").attr("src", $img1);
+// });
+
+// $(document).ready(function () {
+//
+//     $(window).scroll(function () {
+//         if ($(this).scrollTop() > 50 && window.innerWidth > 968) {
+//             //change yes to no
+//             $(".navbar-expand-lg").css(newCss);
+//
+//       } else {
+//           //set h1 text to yes
+//           $(".navbar-expand-lg").css(oldCss);
+//       }
+//     });
+// });
+
+
+
+
+
+
 </script>
 
   </body>
