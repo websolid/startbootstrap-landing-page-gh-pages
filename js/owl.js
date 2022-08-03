@@ -27,11 +27,12 @@ $(function(){
     if ($(window).scrollTop() > 75) {
       var $nav = $(".navbar");
 
+      $(".nav-item").hide();
+      $("#nav3").hide();
       $nav.removeClass('navbar-expand-lg');
       $nav.addClass('scrolled');
       $('.navbar-toggler').css('background-color', 'rgba(2, 48, 71,0.8)');
-      $(".nav-item").hide();
-      $("#nav3").hide();
+
 
 }
 else {
@@ -49,11 +50,11 @@ else {
 
 
 $('#btn1').click(function(){
-if ($(window).scrollTop() > 75){
+if ($(window).scrollTop() > 75 && $('.navbar').hasClass('scrolled')){
 
 
 $(".navbar").addClass('navbar-expand-lg');
-$(".navbar").toggleClass('scrolled');
+$(".navbar").removeClass('scrolled');
 $("#navbarSupportedContent").toggleClass(".navbar-collapse");
 $(".nav-item").show();
 $("#nav3").hide();
