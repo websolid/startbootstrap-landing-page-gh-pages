@@ -24,7 +24,7 @@ $(function(){
 
 
   $(window).scroll(function onScroll() {
-    if ($(window).scrollTop() > 75) {
+    if ($(window).scrollTop() > 75 && $('.navbar').hasClass("navbar-expand-lg")) {
       var $nav = $(".navbar");
 
       $(".nav-item").hide();
@@ -35,7 +35,7 @@ $(function(){
 
 
 }
-else {
+else if ($(window).scrollTop() < 75 && $('.navbar').hasClass("navbar-expand-lg") === false){
           $(".navbar").addClass('navbar-expand-lg');
           $(".navbar").removeClass('scrolled');
           $(".nav-item").show();
@@ -62,6 +62,7 @@ $("#nav3").show();
 $(".navbar-brand").html("<img src='assets/img/logo1.svg'/>");
 
 }
+
 });
 var $img = "none"
 var $img1 = "assets/img/logo1.svg"
