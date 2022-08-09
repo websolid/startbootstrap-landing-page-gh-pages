@@ -30,7 +30,8 @@ body.modal-open {
 
 #nav3{
   margin-right:3px;
-  background-color: #2a9d8f;
+  background: transparent;
+  /* background-color: #2a9d8f; */
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -51,6 +52,7 @@ body.modal-open {
 .navbar{
   width: 100%;
   background-color: #023047;
+  position: sticky;
 
 
 }
@@ -292,9 +294,23 @@ text-align: center;
   height:60%;
   border: 20px solid;
 }
+#home1{
+  background: url('assets/img/SMB.webp') no-repeat center center;
+  background-size: cover;
+  padding-bottom: 8rem;
+  padding-top: 18rem;
+  position: relative;
+  background-color: #00000;
+  height: 40rem;
+  border: 20px solid white;
+}
 
 section.showcase{
   padding-top: 10rem;
+}
+
+section.showcase#showcase-home{
+  padding-top: 0rem;
 }
 
 .showcase .showcase-text {
@@ -345,8 +361,8 @@ section.showcase{
 
 header.masthead {
   position: relative;
-  background-color: #343a40;
-  background: url("assets/img/pop-art.webp") no-repeat center center;
+  background-color: #5f7461;
+  background: url("assets/img/MT.avif") no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -440,7 +456,7 @@ header.heads{
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: url("assets/img/pop-art.webp") no-repeat center center;
+  background: #e8e6df;
 
 }
 
