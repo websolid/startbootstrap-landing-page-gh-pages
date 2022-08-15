@@ -1,13 +1,15 @@
 $(document).ready(function () {
 
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 20) {
-            //change yes to no
-            $("#mod1").html('We Build  Beautiful, Fast and Secure Websites for Under $1k');
-        } else {
-            //set h1 text to yes
-            $("#mod1").html('Looking For An Affordable Website?');
-        }
+  $(document).ready(function () {
+
+
+  // $(window).scroll(function () {
+  //     if ($(this).scrollTop() > 20) {
+          //change yes to no
+          $("#mod1").html('Websolid').hide(0).delay(500).fadeIn(3000);
+          $("#mod3").html('Design Starts Here').hide(0).delay(500).slideDown(4000);
+
+
     });
 
 
@@ -41,7 +43,7 @@ $(function(){
         previousScroll = currentScroll;
 
         if (currentScroll == 0) {
-     	   $(".navbar").css("position", "relative");
+     	   $(".navbar").css("position", "fixed");
         } else {
      	   $(".navbar").css("position", "fixed");
         }
