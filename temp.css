@@ -69,6 +69,9 @@ body.modal-open {
 .navbar-nav{
   margin:auto;
 }
+#contact{
+  display: none;
+}
 @media (max-width: 968px) {
 
 
@@ -87,14 +90,19 @@ body.modal-open {
       margin:auto ;
   }
   #nav3{
-    background-color: transparent;
+    display: none;
+
+  }
+
+  #contact{
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
-    font-weight: 400;
-    display:inline-block;
-    padding-left: 20px;
-    padding-right: 20px;
-
+    font-weight: 700;
+    color: #edf5e1;;
+    line-height: 35px;
+    text-align: center;
+      display: inline-block;
+      margin:auto ;
   }
 
 
@@ -417,7 +425,7 @@ header.masthead h3 {
   header.masthead {
     padding-top: 12.5rem;
     padding-bottom: 20.5rem;
-    height: 40rem;
+    height: 100%S;
   }
 
   header.masthead h1 {
