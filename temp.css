@@ -51,9 +51,9 @@ body.modal-open {
 
 .navbar{
   width: 100%;
-  background-color: #023047;
-  position: sticky;
-  
+  background-color: transparent;
+
+
 
 
 }
@@ -63,29 +63,7 @@ body.modal-open {
 
 }
 
-.navbar.hi #nav3{
-  margin-left: 25px;
-  margin-top: 20px;
-}
 
-.navbar.hi .navbar-nav .nav-item .nav-link {
-  font-family: 'Poppins', sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  color: #fff;
-  line-height: 35px;
-  text-align: center;
-    display: inline-block;
-    margin:auto ;
-}
-.navbar.hi .navbar-nav .nav-link:hover {
-
-  color: #087c6f !important;
-border-bottom: 3px solid;
-padding-bottom: 5px;
-transition: color 1s;
-
-}
 
 
 .navbar-nav{
@@ -102,14 +80,14 @@ transition: color 1s;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 700;
-    color: #fff;
+    color: #edf5e1;;
     line-height: 35px;
     text-align: center;
       display: inline-block;
       margin:auto ;
   }
   #nav3{
-    background-color: #2a9d8f;
+    background-color: transparent;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -173,7 +151,7 @@ transition: color 1s;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-weight: 700;
-  color: #ffff;
+  color: #edf5e1;;
   display:inline-block;
   line-height: 35px;
 text-align: center;
@@ -248,9 +226,14 @@ text-align: center;
 @media only screen and (max-width: 990px) {
 
     .navbar{
-      background: rgba(2, 48, 71, 1);
+      background: transparent;
       width: 100%;
 
+    }
+
+    .navbar-nav{
+      background-color:#254e58;
+      border-radius: 70px;
     }
 
 
@@ -260,7 +243,7 @@ text-align: center;
       font-family: 'Poppins', sans-serif;
       font-size: 16px;
       font-weight: 700;
-      color: #fff;
+      color: #edf5e1;
       display:inline-block;
       line-height: 35px;
 
@@ -276,6 +259,10 @@ text-align: center;
     padding-left: 15px;
     transition: color 1s;
     }
+}
+
+.masthead .btn{
+  background: transparent;
 }
 .features-icons .features-icons-item .features-icons-icon i {
     font-size: 4.5rem;
@@ -305,6 +292,8 @@ text-align: center;
 
 section.showcase{
   padding-top: 10rem;
+  background-color: #88bdbc;
+  color: #edf5e1;
 }
 
 section.showcase#showcase-home{
@@ -359,15 +348,15 @@ section.showcase#showcase-home{
 
 header.masthead {
   position: relative;
-  background-color: #5f7461;
-  background: url("assets/img/MT.webp") no-repeat center center;
+  background-color: #88bdbc !important;
+
   background-size: cover;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-  height: 30rem;
+  padding-top: 12.5rem;
+  padding-bottom: 20.5rem;
+    height: 50rem;
 }
 
-header.masthead:before {
+/* header.masthead:before {
   content: "";
   position: absolute;
   background-color: #1c375e;
@@ -376,18 +365,78 @@ header.masthead:before {
   top: 0;
   left: 0;
   opacity: 0.5;
+} */
+header.masthead h1 {
+
+  color:#edf5e1;
+  text-shadow: 4px 4px #1c375e;
+  font-size: 6rem;
+  font-family: 'Russo One', sans-serif;
+
+  text-transform: uppercase;
+  /* text-overflow: hidden;
+  overflow:hidden; */
+  letter-spacing: 1rem;
+  display: inline;
+  text-align: left;
+  padding-bottom: 17px;
 }
-header.masthead h1, header.masthead .h1 {
-  font-size: 2rem;
+
+header.masthead h3 {
+  color: #edf5e1;
+  font-family: 'Russo One', sans-serif;
+  padding-top: 30px;
+  text-decoration: underline #1c375e;
 }
-@media (min-width: 320px) {
+@media (max-width: 680px) {
+  header.masthead h1 {
+
+    color:#edf5e1;
+    text-shadow: 4px 4px #1c375e;
+    font-size: 4rem;
+    font-family: 'Russo One', sans-serif;
+
+    text-transform: uppercase;
+    /* text-overflow: hidden;
+    overflow:hidden; */
+    letter-spacing: 1rem;
+    display: inline;
+    text-align: left;
+    padding-bottom: 17px;
+  }
+
+  header.masthead h3 {
+    color: #edf5e1;
+    font-family: 'Russo One', sans-serif;
+    padding-top: 30px;
+    text-decoration: underline #1c375e;
+  }
+}
+
+@media (max-width: 500px) {
   header.masthead {
     padding-top: 12.5rem;
     padding-bottom: 20.5rem;
     height: 40rem;
   }
+
+  header.masthead h1 {
+
+    color:#edf5e1;
+    text-shadow: 4px 4px #1c375e;
+    font-size: 2rem;
+    font-family: 'Russo One', sans-serif;
+
+    text-transform: uppercase;
+    /* text-overflow: hidden;
+    overflow:hidden; */
+    letter-spacing: 1rem;
+    display: inline;
+    text-align: left;
+    padding-bottom: 17px;
+  }
 }
-  header.masthead .masthead-subheading {
+  /* header.masthead .masthead-subheading {
     font-size: 4.25rem;
     font-style: ;
     line-height: 1.25rem;
@@ -400,7 +449,7 @@ header.masthead h1, header.masthead .h1 {
     font-weight: 350;
     line-height: 4.5rem;
     margin-bottom: 6.25rem;
-  }
+  } */
 
 /* @media (min-width: 768px) {
   header.masthead {
@@ -450,11 +499,11 @@ header.masthead h1, header.masthead .h1 {
 
 header.heads{
   position: relative;
-  background-color: #343a40;
+  background-color: #88bdbc;
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: #e8e6df;
+  background: #88bdbc;
 
 }
 
