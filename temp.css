@@ -355,13 +355,13 @@ section.showcase#showcase-home{
 
 
 header.masthead {
-  position: relative;
+  float: right;
   background-color: #88bdbc !important;
 
   background-size: cover;
   padding-top: 12.5rem;
   padding-bottom: 20.5rem;
-    height: 50rem;
+    height: 100%;
 }
 
 /* header.masthead:before {
