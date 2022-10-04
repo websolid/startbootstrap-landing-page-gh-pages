@@ -355,7 +355,7 @@ section.showcase#showcase-home{
 
 
 header.masthead {
-  float: right;
+  position: relative;
   background-color: #88bdbc !important;
 
   background-size: cover;
