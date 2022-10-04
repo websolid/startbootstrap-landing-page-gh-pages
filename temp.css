@@ -357,7 +357,7 @@ section.showcase#showcase-home{
 header.masthead {
   position: relative;
   background-color: #88bdbc !important;
-
+display: flex;
   background-size: cover;
   padding-top: 12.5rem;
   padding-bottom: 20.5rem;
