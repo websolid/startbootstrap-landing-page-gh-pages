@@ -11,7 +11,12 @@ body {
 body.modal-open {
     overflow: visible !important;
 }
-
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+}
 
 
 .carousel-item img{
@@ -355,7 +360,6 @@ section.showcase#showcase-home{
 
 
 header.masthead {
-  position: relative;
   background-color: #88bdbc !important;
 display: flex;
   background-size: cover;
