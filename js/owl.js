@@ -6,8 +6,8 @@ $(document).ready(function () {
   // $(window).scroll(function () {
   //     if ($(this).scrollTop() > 20) {
           //change yes to no
-          $("#mod1").html('Websolid').hide(0).delay(500).fadeIn(3000);
-          $("#mod3").html('Design Starts Here').hide(0).delay(500).slideDown(4000);
+          $(".masthead").hide(500).delay(500).slideDown(3000);
+          
 
 
     });
