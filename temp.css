@@ -364,7 +364,7 @@ display: flex;
   background-size: cover;
   padding-top: 12.5rem;
   padding-bottom: 20.5rem;
-    height: 20%;
+    height: 100vh;
     align-items: bottom;
    justify-content: bottom;
 }
@@ -415,6 +415,10 @@ header.masthead h3 {
   text-decoration: underline #1c375e;
 }
 @media (max-width: 680px) {
+
+header.masthead{
+  height:100vh;
+}
   header.masthead h1 {
 
     color:#edf5e1;
