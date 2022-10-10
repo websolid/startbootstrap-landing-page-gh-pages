@@ -443,7 +443,18 @@ header.masthead h3 {
   header.masthead {
     padding-top: 12.5rem;
     padding-bottom: 20.5rem;
-    height: 100%S;
+    height: 100vh;
+  }
+
+  header.masthead2 {
+    background-image: url("assets/img/test3.svg") !important;
+  display: flex;
+    background-size: cover;
+    padding-top: 12.5rem;
+    padding-bottom: 20.5rem;
+      height: 100vh;
+      align-items: bottom;
+     justify-content: bottom;
   }
 
   header.masthead h1 {
