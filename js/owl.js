@@ -6,7 +6,8 @@ $(document).ready(function () {
   // $(window).scroll(function () {
   //     if ($(this).scrollTop() > 20) {
           //change yes to no
-          $(".masthead").hide(0).delay(500).slideDown(3000);
+          $(".masthead2").hide(0).delay(500).slideDown(3000);
+          $(".masthead").delay(1000).hide(3000);
 
 
 
