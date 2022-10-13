@@ -560,24 +560,14 @@ header.masthead{
 
 header.heads{
   position: relative;
-  background-color: #88bdbc;
+  background-color: #738678;
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: #88bdbc;
 
 }
 
-header.heads:before {
-  content: "";
-  position: absolute;
-  background-color: #1c375e;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  opacity: 0.5;
-}
+
 #portfolio .portfolio-item {
   max-width: 25rem;
   margin: auto;
