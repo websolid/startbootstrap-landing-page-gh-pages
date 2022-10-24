@@ -8,7 +8,7 @@ $(document).ready(function () {
           //change yes to no
           $(".masthead2").hide(0).delay(500).slideDown(3000);
           $(".masthead").delay(1000).hide(3000);
-    $(".navbar").hide(0).delay(1000).slidDown(1000);
+    $(".navbar").hide(0).delay(1000).slideDown(1000);
 
 
 
