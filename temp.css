@@ -477,7 +477,12 @@ header.masthead{
       height: 100vh;
       align-items: bottom;
      justify-content: bottom;
+
   }
+	
+	body {
+	border:none !important;
+	}
 
   header.masthead h1 {
 
