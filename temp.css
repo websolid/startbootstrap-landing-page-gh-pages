@@ -7,7 +7,7 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
-border: 3rem solid white;
+border: 4rem solid white;
 }
 body.modal-open {
     overflow: visible !important;
@@ -523,7 +523,7 @@ header.masthead{
 
 #portfolio .container-fluid{
   background-color: 	#a9c3b6;
-  border-top: 2px solid white;
+  border-top: 4rem solid white;
   padding-top: 20px;
   padding-bottom: 40px;
 
