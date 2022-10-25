@@ -82,6 +82,14 @@ html, body {
   #navbarSupportedContent{
     text-align: center;
   }
+	.navbar .navbar-brand {
+  color: black;
+  font-size: 1rem;
+  font-family: 'Russo One', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.0625em;
+  text-transform: uppercase;
+}
 
   .navbar .navbar-nav .nav-item .nav-link {
     font-family: 'Poppins', sans-serif;
