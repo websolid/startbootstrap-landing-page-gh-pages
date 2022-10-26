@@ -35,7 +35,9 @@ html, body {
 
 #nav3{
   margin-right:3px;
-  /* background-color: #2a9d8f; */
+  background-color: transparent;
+  color: #738678;
+  border-color: #738678;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -56,6 +58,7 @@ html, body {
 .navbar{
   width: 100%;
   background-color: white;
+display: flex;
 
 
 
@@ -86,7 +89,6 @@ html, body {
   color: black;
   font-size: 1rem;
   font-family: 'Russo One', sans-serif;
-  font-weight: 700;
   letter-spacing: 0.0625em;
   text-transform: uppercase;
 }
@@ -121,7 +123,7 @@ html, body {
 }
 
 .navbar-brand {
-	
+
 
   display: inline-block;
   padding-top: 0.3125rem;
@@ -135,12 +137,13 @@ html, body {
   text-decoration: none;
 }
 .navbar .navbar-brand {
-  color: black;
+  color: #a9c3b6;
+  text-shadow: 3px 3px white;
   font-size: 3rem;
   font-family: 'Russo One', sans-serif;
-  font-weight: 700;
   letter-spacing: 0.0625em;
   text-transform: uppercase;
+
 }
 .navbar .navbar-brand img {
   height: 1.7rem;
@@ -253,7 +256,7 @@ text-align: center;
       width: 100%;
 
     }
-	
+
 	.navbar .navbar-brand {
   color: black;
   font-size: 1rem;
@@ -479,7 +482,7 @@ header.masthead{
      justify-content: bottom;
 
   }
-	
+
 	body {
 	border:none !important;
 	}
@@ -965,4 +968,91 @@ width: 75%;
     opacity: 1;
     transform: none;
   }
+}
+
+
+
+#head_col{
+  background-color: white;
+  font-family:'Russo One', sans-serif;
+  overflow-wrap: break-word !important;
+  white-space: initial;
+  text-align: center;
+  display: inline-block;
+  color: #a9c3b6;
+  border-top: 4rem solid white;
+  border-bottom: 4rem solid white;
+  border-left: 2rem solid white;
+  height: 90vh;
+  border-radius: 90;
+
+
+}
+/* .cont1{
+  border: 4px solid #738678;
+  border-radius: 100
+} */
+
+#head_col h1.type1 {
+  overflow: hidden;
+  text-shadow: 3px 3px white;
+  color: #a9c3b6;
+  letter-spacing: 0.0625em;
+  text-transform: uppercase;/* Ensures the content is not revealed until the animation */
+padding-top: 10rem;
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+
+  width: 0;
+       animation:
+         typing 3s steps(20, end) forwards;
+    animation-delay: .5s;
+}
+#head_col p.type2{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+
+  width: 0;
+       animation:
+         typing 3s steps(20, end) forwards;
+    animation-delay: 2s;
+}
+#head_col p.type3{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+
+  width: 0;
+       animation:
+         typing 3s steps(20, end) forwards;
+    animation-delay: 3s;
+}
+#head_col p.type4{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+
+  width: 0;
+       animation:
+         typing 3s steps(20, end) forwards;
+    animation-delay: 5s;
+}
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
 }
