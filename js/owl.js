@@ -6,9 +6,9 @@ $(document).ready(function () {
   // $(window).scroll(function () {
   //     if ($(this).scrollTop() > 20) {
           //change yes to no
-          $(".masthead2").hide(0).delay(500).slideDown(3000);
-          $(".masthead").delay(1000).hide(3000);
-    $(".navbar").hide(0).delay(3000).fadeIn(1000);
+          // $(".masthead2").hide(0).delay(500).slideDown(3000);
+          // $(".masthead").delay(1000).hide(3000);
+    // $(".navbar-brand").hide(0).delay(1000).fadeIn(1000);
 
 
 
