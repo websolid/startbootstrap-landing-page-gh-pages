@@ -45,7 +45,7 @@ $(function(){
         previousScroll = currentScroll;
 
         if (currentScroll == 0) {
-     	   $(".navbar").css("position", "fixed");
+     	   $(".navbar").css("position", "inherit");
         } else {
      	   $(".navbar").css("position", "fixed");
         }
