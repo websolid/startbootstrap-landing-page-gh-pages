@@ -7,7 +7,7 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
-border: 4rem solid white;
+border: 3rem solid white;
 }
 body.modal-open {
     overflow: visible !important;
@@ -56,9 +56,12 @@ html, body {
 }
 
 .navbar{
-  width: 100%;
-  background-color: white;
+  background-color: #fdf8f0;
 display: flex;
+border: 2px inset #a9c3b6;
+/* border-left: 2px solid #a9c3b6; */
+position: inherit;
+
 
 
 
@@ -139,7 +142,7 @@ display: flex;
 .navbar .navbar-brand {
   color: #a9c3b6;
   text-shadow: 3px 3px white;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-family: 'Russo One', sans-serif;
   letter-spacing: 0.0625em;
   text-transform: uppercase;
@@ -391,13 +394,12 @@ display: flex;
     align-items: bottom;
    justify-content: bottom;
 }
-header.masthead2 {
+#masthead2 {
   background-image: url("assets/img/test.jpg");
-display: flex;
   background-size: cover;
-  padding-top: 12.5rem;
-  padding-bottom: 20.5rem;
+    background-color: black;
     height: 100vh;
+    border-left: 3rem solid white;
 }
 
 
@@ -973,18 +975,16 @@ width: 75%;
 
 
 #head_col{
-  background-color: white;
+  background-color: #fdf8f0;
   font-family:'Russo One', sans-serif;
   overflow-wrap: break-word !important;
   white-space: initial;
   text-align: center;
   display: inline-block;
   color: #a9c3b6;
-  border-top: 4rem solid white;
+  /* border-top: 4rem solid white;
   border-bottom: 4rem solid white;
-  border-left: 2rem solid white;
-  height: 90vh;
-  border-radius: 90;
+  border-left: 2rem solid white; */
 
 
 }
@@ -1009,7 +1009,7 @@ padding-top: 10rem;
          typing 3s steps(20, end) forwards;
     animation-delay: .5s;
 }
-#head_col p.type2{
+#head_col h1.type2{
   overflow: hidden; /* Ensures the content is not revealed until the animation */
 
   white-space: nowrap; /* Keeps the content on a single line */
