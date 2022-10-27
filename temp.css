@@ -89,7 +89,7 @@ position: inherit;
     text-align: center;
   }
 	.navbar .navbar-brand {
-  color: black;
+  color: #a9c3b6;
   font-size: 1rem;
   font-family: 'Russo One', sans-serif;
   letter-spacing: 0.0625em;
@@ -100,11 +100,14 @@ position: inherit;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 700;
-    color: black;
+    color: #a9c3b6;
     line-height: 35px;
     text-align: center;
       display: inline-block;
       margin:auto ;
+  }
+  .navbar{
+    border:none;
   }
   #nav3{
     display: none;
@@ -260,19 +263,17 @@ text-align: center;
 
     }
 
-	.navbar .navbar-brand {
-  color: black;
-  font-size: 1rem;
-  font-family: 'Russo One', sans-serif;
-  font-weight: 700;
-  letter-spacing: 0.0625em;
-  text-transform: uppercase;
-}
+    .navbar .navbar-brand {
+    color: #a9c3b6;
+    font-size: 1rem;
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 0.0625em;
+    text-transform: uppercase;
+  }
 
     .navbar-nav{
-      background-color:#254e58;
-      border-radius: 70px;
-    }
+      background-color:#738678;
+        }
 
 
     .nav-link{
@@ -281,7 +282,7 @@ text-align: center;
       font-family: 'Poppins', sans-serif;
       font-size: 16px;
       font-weight: 700;
-      color: #edf5e1;
+      color: #a9c3b6;
       display:inline-block;
       line-height: 35px;
 
@@ -473,7 +474,7 @@ header.masthead{
     height: 100vh;
   }
 
-  header.masthead2 {
+  #masthead2 {
     background-image: url("assets/img/test3.svg") !important;
   display: flex;
     background-size: cover;
@@ -982,6 +983,7 @@ width: 75%;
   text-align: center;
   display: inline-block;
   color: #a9c3b6;
+  height: 100vh;
   /* border-top: 4rem solid white;
   border-bottom: 4rem solid white;
   border-left: 2rem solid white; */
