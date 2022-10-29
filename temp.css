@@ -145,10 +145,11 @@ position: inherit;
 .navbar .navbar-brand {
   color: #a9c3b6;
   text-shadow: 3px 3px white;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-family: 'Russo One', sans-serif;
   letter-spacing: 0.0625em;
   text-transform: uppercase;
+  margin-left: 0px;
 
 }
 .navbar .navbar-brand img {
@@ -180,9 +181,9 @@ transition: color 1s;
  }
 
 .nav-link{
-  font-family: 'Poppins', sans-serif;
-  font-size: 16px;
-  font-weight: 700;
+  font-family: "Courier New",Courier,monospace;
+  font-size: 14px;
+
   color: #738678;
   display:inline-block;
   line-height: 35px;
@@ -1058,4 +1059,22 @@ padding-top: 10rem;
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: orange; }
+}
+
+.some-text{
+font-family: "Courier New",Courier,monospace;
+color: white;
+margin-top: 35rem;
+width: 250px;
+
+margin-left: 30px;
+
+}
+.some-text p{
+  font-size: 13px;
+}
+.some-text h5{
+
+font-size: 18px;
+
 }
