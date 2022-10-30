@@ -1078,10 +1078,10 @@ margin-left: 30px;
 font-size: 18px;
 
 }
-.portfolio-link:hover img {
+.portfolio-item:hover img {
   opacity: 0.3;
 }
 
-.portfolio-link img:hover {
+.portfolio-item img:hover {
   opacity: 1;
 }
