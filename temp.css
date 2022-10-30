@@ -1078,10 +1078,10 @@ margin-left: 30px;
 font-size: 18px;
 
 }
-.row:hover img {
+.a:hover img {
   opacity: 0.3;
 }
 
-.row img:hover {
+.a img:hover {
   opacity: 1;
 }
