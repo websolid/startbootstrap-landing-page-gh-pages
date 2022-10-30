@@ -158,22 +158,22 @@ position: inherit;
   display:block;
 }
 
-.nav-link:hover{
+/* .nav-link:hover{
   color: #087c6f;
 border-bottom: 3px solid;
 padding-bottom: 5px;
 transition: color 1s;
 
-}
+} */
 
 
 
-.nav-link.active:hover {
+/* .nav-link.active:hover {
   color: #087c6f !important;
 border-bottom: 3px solid;
 padding-bottom: 5px;
 transition: color 1s;
-}
+} */
 
 .dropdown:hover .dropdown-menu {
     display: block;
@@ -226,13 +226,13 @@ text-align: center;
 
 
 
-
+/* 
 #port:hover{
   color: #087c6f;
   transition: color 1s ;
   border-bottom: 3px solid;
   padding-bottom: 5px;
-}
+} */
 
 
 
@@ -292,13 +292,13 @@ text-align: center;
       margin-top: 5px;
       margin-left: 32px !important;
     }
-    .nav-link:hover{
+/*     .nav-link:hover{
       color: #087c6f;
     border-bottom: 3px solid #087c6f;
     padding-bottom: none !important;
     padding-left: 15px;
     transition: color 1s;
-    }
+    } */
 }
 
 .masthead .btn{
