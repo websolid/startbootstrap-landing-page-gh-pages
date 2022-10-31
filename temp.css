@@ -1087,3 +1087,8 @@ font-size: 18px;
   opacity: 1;
 	  transition:1s;
 }
+img{
+	transform: scale(0);
+	transition:0.5s;
+}
+	
