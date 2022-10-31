@@ -1088,7 +1088,7 @@ font-size: 18px;
 	  transition:1s;
 }
 img{
-	transform: scale(0);
+	transform: scale(1);
 	transition:0.5s;
 }
 	
