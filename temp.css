@@ -1080,7 +1080,7 @@ font-size: 18px;
 }
 .a:hover img {
   opacity: 0.3;
-	transition:1s;
+	transition:0.5;
 }
 
 .a img:hover {
