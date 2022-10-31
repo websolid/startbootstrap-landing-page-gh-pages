@@ -111,6 +111,7 @@
           <p class="type3">Web Development Agency...</p>
           <br>
           <p class="type4">(022) 4363 556 </p>
+          <a class="btn mt-5" href="https://calendly.com/simon-putan/30min">book now</a>
       </div>
       </div>
       <div class="col-md-8" id="masthead2">
@@ -212,13 +213,10 @@ sol·​id | \ ˈsä-ləd of good substantial quality : Reliable </p>
 
   <!-- <div class="clearfix visible-xs-block"></div> -->
 
-    <section class="page-section" id="portfolio">
-        <div class="container-fluid">
+    <section class="page-section pt-5" id="portfolio">
+        <div class="container-fluid mt-5">
           <div class="container mt-0 mb-5" style="width: 20rem;">
-            <div class="text-center text-black">
-              <br>
-            <h2 class="mt-0 mb-5">portfolio</h2>
-              </div>
+
                 </div>
 
 
@@ -499,7 +497,7 @@ sol·​id | \ ˈsä-ləd of good substantial quality : Reliable </p>
 <script src="js/owl.js"></script>
 
 <script>
-  
+
   $(document).ready(function(){
   $(".navbar").hover(function(){
     $('#brand').css({"opacity": "0.5", "transition-duration": "1s"})
@@ -507,36 +505,48 @@ sol·​id | \ ˈsä-ləd of good substantial quality : Reliable </p>
     $('#brand').css("opacity", "1");
   });
 });
-  
+
 </script>
 
 <script>
-  
+
   $(document).ready(function(){
   $(".nav-item").hover(function(){
-    $('#brand').css({"opacity": "0.1", "transition-duration": "1s"})
+    $('#brand').css({"opacity": "0.3", "transition-duration": "1s"})
+    $(".navbar-brand").css({"color": "rgba(115, 134, 120,1)", "transition-duration": "0.5s"})
     }, function(){
     $('#brand').css("opacity", "1");
+    $(".navbar-brand").css({"color": "rgba(169, 195, 182,1)", "transition-duration": "0.5s"})
   });
 });
-  
+
 </script>
 
 
 <script>
-  
+
   $(document).ready(function(){
   $("img").hover(function(){
     $('.row').addClass("a");
     $("#portfolio").css({"backgroundColor": "rgba(115, 134, 120,1)", "transition-duration": "0.5s"})
+    $(".navbar-brand").css({"color": "rgba(115, 134, 120,1)", "transition-duration": "0.5s"})
     }, function(){
     $('.row').removeClass("a")
       $("#portfolio").css({"backgroundColor": "rgba(169, 195, 182,1)", "transition-duration": "0.5s"})
+      $(".navbar-brand").css({"color": "rgba(169, 195, 182,1)", "transition-duration": "0.5s"})
   });
 });
 
+$(document).ready(function(){
+$(".btn").hover(function(){
+  $(".navbar-brand").css({"color": "rgba(115, 134, 120,1)", "transition-duration": "0.5s"})
+  }, function(){
+    $(".navbar-brand").css({"color": "rgba(169, 195, 182,1)", "transition-duration": "0.5s"})
+});
+});
 
-  
+
+
 </script>
 
 
