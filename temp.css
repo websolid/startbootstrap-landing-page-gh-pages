@@ -1103,3 +1103,48 @@ color: #a9c3b6;
   color:#fdf8f0;
   transition: 0.5s;
 }
+
+/* Price Section */
+#ethos {
+  background-color: #fdf8f0;
+  color: #738678;
+font-size: 1rem;
+font-family: 'Russo One', sans-serif;
+letter-spacing: 0.0625em;
+    /* font-size: 14px; */
+
+
+}
+#price_1{
+background-color: #fdf8f0;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border: 2px solid #738678;
+
+  }
+
+#price_1 h1{
+    font-size: 3rem;
+    margin-top: 3rem;
+    font-family: 'Russo One', sans-serif;
+color: #a9c3b6;
+}
+
+#price_2{
+  height: 90vh;
+  background-color: #738678;
+  background-image: url('assets/img/book.jpg');
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  border-left: 3rem solid white;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+#price_1 p{
+font-family: "Courier New",Courier,monospace;
+font-size: 16px;
+color: #738678;
+}
