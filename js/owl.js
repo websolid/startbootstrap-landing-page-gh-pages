@@ -51,6 +51,47 @@ $(function(){
         }
      });
  });
+ $(document).ready(function(){
+ $(".navbar").hover(function(){
+   $('#brand').css({"opacity": "0.5", "transition-duration": "1s"})
+   }, function(){
+   $('#brand').css("opacity", "1");
+ });
+});
+
+ $(document).ready(function(){
+ $(".nav-item").hover(function(){
+   $('#brand').css({"opacity": "0.3", "transition-duration": "1s"})
+   $(".navbar-brand").css({"color": "rgba(115, 134, 120,1)", "transition-duration": "0.5s"})
+   }, function(){
+   $('#brand').css("opacity", "1");
+   $(".navbar-brand").css({"color": "rgba(169, 195, 182,1)", "transition-duration": "0.5s"})
+ });
+});
+
+
+
+ $(document).ready(function(){
+ $("img").hover(function(){
+   $('.row').addClass("a");
+   $("#portfolio").css({"backgroundColor": "rgba(115, 134, 120,1)", "transition-duration": "0.5s"})
+   $(".navbar-brand").css({"color": "rgba(115, 134, 120,1)", "transition-duration": "0.5s"})
+   $("#brand").css({"color": "rgba(115, 134, 120,1)", "transition-duration": "0.5s"})
+   }, function(){
+   $('.row').removeClass("a")
+     $("#portfolio").css({"backgroundColor": "rgba(169, 195, 182,1)", "transition-duration": "0.5s"})
+     $(".navbar-brand").css({"color": "rgba(169, 195, 182,1)", "transition-duration": "0.5s"})
+ });
+});
+
+$(document).ready(function(){
+$(".btn").hover(function(){
+ $(".navbar-brand").css({"color": "rgba(115, 134, 120,1)", "transition-duration": "0.5s"})
+ }, function(){
+   $(".navbar-brand").css({"color": "rgba(169, 195, 182,1)", "transition-duration": "0.5s"})
+});
+});
+
 
 
 // $('#btn1').click(function(){
