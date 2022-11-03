@@ -1117,9 +1117,9 @@ letter-spacing: 0.0625em;
 }
 #price_1{
 background-color: #fdf8f0;
-    margin-top: 3rem;
     margin-bottom: 3rem;
-    border: 2px solid #738678;
+    margin-top: 3rem;
+    /* border: 2px solid #738678; */
 
   }
 
@@ -1131,14 +1131,12 @@ color: #a9c3b6;
 }
 
 #price_2{
-  height: 90vh;
   background-color: #738678;
-  background-image: url('assets/img/book.jpg');
+  background-image: url('assets/img/bg-test.jpg');
   background-attachment:fixed;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: right;
-  border-left: 3rem solid white;
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
