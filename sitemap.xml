@@ -7,13 +7,13 @@
     <priority>0.8</priority>
 
   </url>
-  <url>
+<!--   <url>
     <loc>https://www.websolid.co.nz/services</loc>
     <lastmod>2022-07-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 
-  </url>
+  </url> -->
   <url>
     <loc>https://www.websolid.co.nz/prices</loc>
     <lastmod>2022-07-05</lastmod>
